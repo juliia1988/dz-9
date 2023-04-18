@@ -10,17 +10,22 @@ public class Main {
         for (String charsAlex : name) {
             char[] chars = charsAlex.toCharArray();
 
+            System.out.println("Завдання: Написати Alexx9800 по одный літері вертикально: ");
+
+
             for (int j = 0; j < charsAlex.length(); j++) {
                 System.out.println(chars[j]);
 
             }
         }
+
         int[] numbers = new int[]{8,2,3,4,5,6,7};
+
+        System.out.println("Завдання: вивести сумму всіх чисел, які діляться на два:  ");
 
         for (int element : numbers) {
             if (element % 2 == 0) {
                 System.out.println(element);
-
             }
 
         }
@@ -31,6 +36,8 @@ public class Main {
     }
 
     public static void solver(String[] words) {
+
+        System.out.println("Основне завдання:  ");
 
         List<String> helpList = new ArrayList<>();
 
